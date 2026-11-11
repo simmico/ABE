@@ -1,0 +1,5 @@
+.wrangler/
+node_modules/
+server.js
+_worker.js
+wrangler.jsonc
