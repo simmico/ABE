@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aqeelah's Beauty Empire | Aqeelah &amp; Rio Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header class="top-nav">
+    <div class="nav-inner">
+      <div class="brand-mark">
+        <div class="brand-monogram">A</div>
+        <div>
+          <span class="brand-title">Aqeelah's Beauty Empire</span>
+          <span class="brand-subtitle">Aqeelah &amp; Rio Workspace</span>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="./index.html" class="nav-pill active">Current Focus &amp; Checklist</a>
+        <a href="./concept.html" class="nav-pill">✨ Interactive Master Plan</a>
+
+        <div class="role-switcher" aria-label="Switch View">
+          <button type="button" class="role-btn active" data-role-btn="aqeelah">Aqeelah's View</button>
+          <button type="button" class="role-btn" data-role-btn="tech">Rio's View</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Workspace -->
+  <main class="hub-container">
+
+    <!-- Greeting & Progress Bars -->
+    <section class="hero-banner">
+      <div class="hero-top">
+        <div class="hero-greeting">
+          <h1 id="hero-title">Aqeelah's Beauty Empire Hub</h1>
+          <p id="hero-desc">
+            No deadlines and no rush. Focus only on your Current Focus item below, tick it off when you finish, and watch your empire progress grow.
+          </p>
+        </div>
+        <div class="sync-badge">
+          <span class="sync-dot"></span>
+          <span id="sync-status-text">Ready</span>
+        </div>
+      </div>
+
+      <div class="progress-grid">
+        <div class="progress-card">
+          <div class="progress-card-header">
+            <span class="progress-label">Overall Empire Progress</span>
+            <span class="progress-stats" id="prog-combined-stats">0%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" id="prog-combined-fill"></div>
+          </div>
+          <div class="progress-subtext">Combined CPT &amp; JHB Milestones</div>
+        </div>
+
+        <div class="progress-card">
+          <div class="progress-card-header">
+            <span class="progress-label">Aqeelah (CPT &amp; Brand)</span>
+            <span class="progress-stats" id="prog-aqeelah-stats">0%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" id="prog-aqeelah-fill"></div>
+          </div>
+          <div class="progress-subtext">Quality, Tech Curation &amp; CPT Salons</div>
+        </div>
+
+        <div class="progress-card">
+          <div class="progress-card-header">
+            <span class="progress-label">Rio (Tech &amp; JHB)</span>
+            <span class="progress-stats" id="prog-tech-stats">0%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill champagne" id="prog-tech-fill"></div>
+          </div>
+          <div class="progress-subtext">App Engineering &amp; JHB Ops</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- View Tabs -->
+    <div class="view-tabs">
+      <div class="tab-group">
+        <button type="button" class="tab-btn active" data-tab-btn="focus">Current Focus</button>
+        <button type="button" class="tab-btn" data-tab-btn="checklist">Full Checklist</button>
+        <button type="button" class="tab-btn" data-tab-btn="growth">Aqeelah's Growth Map</button>
+        <button type="button" class="tab-btn" data-tab-btn="scripts">Research Guide &amp; Copy Scripts</button>
+      </div>
+    </div>
+
+    <!-- TAB 1: Current Focus + Recently Completed + Previous/Upcoming Slider -->
+    <section data-tab-panel="focus">
+      <!-- Recently Completed Banner -->
+      <div id="recent-completed-banner" class="recent-banner hidden"></div>
+
+      <!-- Current Focus Cards (Highlighted Role + Partner Role) -->
+      <div id="focus-cards-container" class="focus-grid"></div>
+
+      <!-- Previous / Upcoming Items Slider -->
+      <div class="slider-bar">
+        <div class="slider-info">
+          <span class="slider-title" id="slider-position-label">Showing Current Focus</span>
+          <span class="slider-sub" id="slider-position-sub">Use the buttons to peek at previous or upcoming items.</span>
+        </div>
+
+        <div class="slider-controls">
+          <button type="button" class="slider-btn reset-focus hidden" id="slider-reset-btn">
+            Return to Current Focus
+          </button>
+          <button type="button" class="slider-btn" id="slider-prev-btn">
+            &larr; Previous Item
+          </button>
+          <button type="button" class="slider-btn" id="slider-next-btn">
+            Upcoming Item &rarr;
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: Full Checklist -->
+    <section data-tab-panel="checklist" class="hidden">
+      <div id="full-checklist-container"></div>
+    </section>
+
+    <!-- TAB 3: Aqeelah's Personal Growth Map -->
+    <section data-tab-panel="growth" class="hidden">
+      <div class="focus-card" style="margin-bottom: 1.5rem;">
+        <h2 class="focus-title">How Every Activity Builds Your Confidence &amp; Independence</h2>
+        <p class="focus-desc" id="growth-intro-text" style="margin-bottom: 0;"></p>
+      </div>
+      <div id="growth-cards-container" class="cards-grid"></div>
+    </section>
+
+    <!-- TAB 4: Research Tutorials & One-Tap Copy Scripts -->
+    <section data-tab-panel="scripts" class="hidden">
+      <div style="margin-bottom: 2rem;">
+        <h2 style="font-size: 1.65rem; margin-bottom: 0.85rem;">Step-by-Step Market Research Guides</h2>
+        <div id="research-guides-container" class="cards-grid"></div>
+      </div>
+
+      <div>
+        <h2 style="font-size: 1.65rem; margin-bottom: 0.85rem;">Ready-to-Use Scripts (One-Tap Copy)</h2>
+        <div id="copy-scripts-container" class="cards-grid"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="./js/sync.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "researchGuides": [
+    {
+      "id": "guide_techs",
+      "title": "How to Find Independent Nail Techs (Instagram & TikTok)",
+      "subtitle": "Takes about 15 minutes for 5 nail techs. Focus on real individuals or boutique studios, not huge corporate chains.",
+      "steps": [
+        "Open Instagram or TikTok and search phrases like 'Nail tech Cape Town', 'Nails CPT', 'Gel X Cape Town', or 'BIAB Cape Town'.",
+        "Click on accounts belonging to individual nail techs or small studios with clean, well-lit nail photos.",
+        "Check their Bio: write down how they tell clients to book (for example: 'WhatsApp only', 'DM to book', or 'Link in bio').",
+        "Check their Story Highlights: look for a highlight called 'Price List' or 'Policy'. Write down their price for a plain set and their deposit rule.",
+        "Spot 1 Booking Flaw: note one thing that is annoying or slow for a client (such as no prices shown, slow replies, or strict deposit rules without buyer protection)."
+      ]
+    },
+    {
+      "id": "guide_salons",
+      "title": "How to Find 'Empty Chair' Salons (The Google Maps Trick)",
+      "subtitle": "How to spot independent salons that have empty nail stations sitting idle during the week.",
+      "steps": [
+        "Open Google Maps and search 'Nail salon' or 'Beauty salon' in Cape Town.",
+        "Click on independent salons (places with 1 location, nice photos of their interior stations, and good reviews).",
+        "Scroll down on their Google Maps listing until you see the 'Popular times' bar graph.",
+        "Tap through Tuesday, Wednesday, and Thursday. Look for salons where the activity bars are very low between 10:00 and 15:00.",
+        "Add those salons to your sheet! When a salon owner sees empty chairs on a Tuesday afternoon, they are still paying rent and electricity for an empty room, which is why our Empty Chair partnership makes them extra money."
+      ]
+    }
+  ],
+  "scripts": [
+    {
+      "id": "script_1",
+      "stage": "Item 10 • Outreach Level 1",
+      "title": "Script 1: Friendly 'Market Research' DM to Nail Techs",
+      "whyItWorks": "You are complimenting their work and asking for their opinion, not trying to sell them anything yet. People love sharing their frustrations.",
+      "text": "Hey [Name]! I came across your page and your cuticle work and shaping are honestly so clean. I'm busy building a new booking app for top nail techs in CPT and JHB that stops late cancellations and cuts out long WhatsApp price chats. Since you're doing great work already, can I ask you a quick question? What is the most annoying thing you deal with right now when clients book with you?"
+    },
+    {
+      "id": "script_2",
+      "stage": "Item 11 • Outreach Level 1",
+      "title": "Script 2: Reply When Techs Complain About No-Shows or WhatsApp",
+      "whyItWorks": "Because they just told you their problem, inviting them onto our Founding Tech list feels natural and helpful.",
+      "text": "That is literally the exact reason we started building this! On our app, your portfolio photo is the booking button, with the exact price and time already locked in, and the client pays 100% upfront before they get your slot. Even better, if a client cancels late, you still get paid 25% automatically for your wasted time.\n\nWe are picking just 10 Founding Techs in Cape Town to launch with at 0% platform fee on your first 3 bookings. Your work is definitely the standard we want. Would you be keen for me to save you one of the Founding spots?"
+    },
+    {
+      "id": "script_3",
+      "stage": "Item 12 • Outreach Level 2",
+      "title": "Script 3: 30-Second Voice Note to Interested Techs",
+      "whyItWorks": "Smile while you record it! If you stumble over a word, do not worry, because it makes you sound like a warm, real human rather than a script.",
+      "text": "Hey [Name], thank you so much for your reply! I'm so excited to have you on our Founding Tech list for Cape Town. To get your profile preview ready for you to see, all I need is 5 photos of your favourite sets that you've done recently, along with what you charge for each of those 5 looks and roughly how long each one takes you. Whenever you have a gap today or tomorrow, just send them through here and I'll build your preview page for you!"
+    },
+    {
+      "id": "script_4",
+      "stage": "Item 14 • Outreach Level 3",
+      "title": "Script 4: 5-Minute Warm Onboarding Call with Techs",
+      "whyItWorks": "You are only calling techs who already sent you their photos. Keep these 3 simple points in front of you during the call so you feel relaxed.",
+      "text": "Hi [Name]! It's Aqeelah here from ABE. Thank you so much for sending your nail photos through, they look stunning and I've approved all of them for your Founding profile! I just wanted to say a quick hello so you have a real voice to the name, and quickly let you know how appointments work on the day:\n1. Clients pay 100% upfront when they book your photo.\n2. When the client sits in your chair, you'll type their 4-digit PIN into your phone to start the booking, and snap one quick photo of their finished nails inside the app when you're done.\n3. Your payouts go straight to your bank weekly, or you can cash out instantly whenever you need.\nAre you currently working from a commercial salon chair, or would you like us to match your bookings with one of our partner salons in Cape Town?"
+    },
+    {
+      "id": "script_5",
+      "stage": "Item 15 • Outreach Level 4",
+      "title": "Script 5: 5-Minute Quiet Salon Walk-In or Phone Call",
+      "whyItWorks": "Salon owners are normal business people trying to pay their shop rent. You are bringing them extra income for chairs that are currently sitting empty.",
+      "text": "Hi there! Hope your week is going well. My name is Aqeelah. I noticed you have a really lovely space here. Are the owner or manager around for 2 minutes by any chance?\n\n(When speaking to the owner or manager):\nWe are launching a nail booking platform in Cape Town that connects pre-vetted, top-rated independent nail techs with paying clients. For safety reasons, we do not allow house calls on our app, so every booking has to happen inside a proper salon. Instead of techs working from home, we partner with independent salons like yours so our verified techs can use one of your spare stations during your quieter mid-week hours, and your salon earns a guaranteed fee on every booking with zero marketing cost to you. I brought a quick 1-page summary showing how it works. Could I leave this with you and grab your WhatsApp or email to follow up on Thursday?"
+    }
+  ]
+}

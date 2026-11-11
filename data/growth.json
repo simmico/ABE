@@ -1,0 +1,61 @@
+{
+  "intro": "Aqeelah, I did not just put this plan together so we can build an app. I built it this way for you. You have so many good ideas in your head, but because you overthink, you sometimes get stuck in your own mind and never put pen to paper. You do not like being bossed around, and I never want to just tell you what to do without explaining why. Every step in here is broken down so you can see exactly how it works, trust your own head, and prove to yourself how capable and independent you really are.",
+  "levels": [
+    {
+      "level": "Foundation",
+      "badge": "Trusting Your Standards",
+      "activity": "Writing the 'Certified Pro' Quality Checklist & Vetting Tech Photos",
+      "linkedItems": [1, 13],
+      "skillBuilt": "Trusting Your Judgement Instead of Overthinking",
+      "explanation": "You already know a lot, but you let self-doubt and overthinking cloud your judgement. Think back to your shop when the techs you hired messed up and you literally had to go in and sort things out for clients yourself. Who better to write the checklist for what makes a nail tech genuinely good than someone who already lived through hiring the wrong people? You already know what quality you wished those techs had. Put those exact standards on paper and do not second-guess yourself."
+    },
+    {
+      "level": "Foundation",
+      "badge": "Clear Thinking",
+      "activity": "Researching Techs & Prices on IG / TikTok",
+      "linkedItems": [2, 3],
+      "skillBuilt": "Figuring Things Out Without Panicking",
+      "explanation": "In the past, whenever you did not know where to start, your first instinct was to panic and call your dad or ask someone else what to do. I want you to see that when you break something down into small pieces, you do not need to panic at all. Searching for 5 nail techs at a time and writing down their prices teaches you how to gather facts on your own. Once the facts are written down in front of you, your mind stops spiralling because the answer is right there on the sheet."
+    },
+    {
+      "level": "Foundation",
+      "badge": "Real Experience",
+      "activity": "Mystery Shopping Techs & Checking Quiet Salon Hours",
+      "linkedItems": [4, 5],
+      "skillBuilt": "Using What You Lived Through at Your Shop",
+      "explanation": "You know firsthand what it felt like having quiet days at your shop, and you know how frustrating it was when techs were unreliable or did a poor job. When you message other nail techs as a mystery client and check Google Maps to see which salons are sitting empty on a Tuesday afternoon, I want you to connect what you experienced at your shop to what we are building now. You are not guessing how salon owners feel on quiet days because you have literally been in their shoes."
+    },
+    {
+      "level": "Leadership",
+      "badge": "Taking the Lead",
+      "activity": "Deciding Add-On Rules, Brand Bio & Prototype Review",
+      "linkedItems": [6, 7, 8],
+      "skillBuilt": "Backing Your Own Decisions",
+      "explanation": "Usually you wait for someone else to take the lead, or you ask your dad, your brother, or me before you settle on a decision because you start doubting yourself. You know how when you ask me what to do, I ask you questions back so you realise you already had the right answer? That is what this step is. Your name is on this company. When you decide the add-on rules and set up our page, you are practising making a call, locking it in, and not overthinking it afterwards."
+    },
+    {
+      "level": "Outreach Level 1 & 2",
+      "badge": "Warming Up",
+      "activity": "Starting with Text DMs, Then 30-Second Voice Notes",
+      "linkedItems": [9, 10, 11, 12],
+      "skillBuilt": "Taking the Intimidation Out of Reaching Out",
+      "explanation": "I know how much you hate phone calls and how shy or intimidated you can feel talking to strangers, to the point where your brother even makes bookings for you. That is why I would never throw you into making cold calls on Day 1. We start with simple text messages where you just compliment a nail tech's work and ask a question, using scripts we already prepared. Then we move to a short 30-second voice note. It lets you warm up slowly without feeling put on the spot."
+    },
+    {
+      "level": "Outreach Level 3 & 4",
+      "badge": "Real Strength",
+      "activity": "Doing a 5-Minute Call & Speaking to Quiet Salons",
+      "linkedItems": [14, 15],
+      "skillBuilt": "Remembering How Strong You Are When It Counts",
+      "explanation": "Whenever your brain tells you that you cannot make a phone call or speak to a salon owner, I want you to remember the day your dad was rushed to hospital. In a moment where you would normally freeze up or panic, you picked up the phone, called your uncle out of nowhere, and got the ambulance sorted. You did that yourself. If you could handle a phone call in a real emergency like that, a 5-minute chat with a friendly nail tech who already sent you her photos is nothing to you."
+    },
+    {
+      "level": "Execution",
+      "badge": "Pen to Paper",
+      "activity": "Ticking Off One Item at a Time & Launching",
+      "linkedItems": [16, 17, 18],
+      "skillBuilt": "Bringing Ideas Out of Your Head Into Reality",
+      "explanation": "You have great ideas, but when you look at a massive project all at once, you never know where to start so it stays stuck in your head instead of becoming real. That is why we only show one Current Focus item at a time. You do not need to worry about next week. You just put pen to paper on the one small thing in front of you today, tick it off, and watch what was in your head turn into a real business."
+    }
+  ]
+}
