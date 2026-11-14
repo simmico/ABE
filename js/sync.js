@@ -255,8 +255,8 @@ const FALLBACK_ROADMAP = {
         "title": "Build the Tech Availability Calendar & Slot Engine",
         "description": "Implement working hours, buffer times, and slot generation that accounts for the exact duration of the chosen Visual Contract plus selected modifiers.",
         "deliverable": "Calendar availability engine completed",
-        "completed": false,
-        "completedAt": null,
+        "completed": true,
+        "completedAt": "2026-11-14T21:48:00+02:00",
         "notes": ""
       }
     },
