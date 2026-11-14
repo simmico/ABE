@@ -327,9 +327,9 @@ const FALLBACK_ROADMAP = {
         "title": "Build the Biometric + 4-Digit Randomised PIN Start Lock",
         "description": "Generate a unique, randomised 4-digit PIN on the client's booking screen. Require the tech to pass Biometric/Selfie verification AND enter the client's 4-digit PIN to start the appointment timer.",
         "deliverable": "Biometric + 4-digit PIN check-in flow",
-        "completed": false,
-        "completedAt": null,
-        "notes": ""
+        "completed": true,
+        "completedAt": "2026-11-14T20:30:00Z",
+        "notes": "Completed AppointmentStartLockService, TechStartAppointmentScreen, SupportSecurityAlert 15-min lockout after 5 failed attempts, and Firestore Rules via firestore-rules-author."
       }
     },
     {
@@ -351,9 +351,9 @@ const FALLBACK_ROADMAP = {
         "title": "Build the In-App Live Completion Camera Lock",
         "description": "Force the 'Complete Appointment' button to open the native in-app camera directly (blocking gallery uploads) so the tech captures a live photo of the finished nails to unlock their payout.",
         "deliverable": "Live camera completion lock implemented",
-        "completed": false,
-        "completedAt": null,
-        "notes": ""
+        "completed": true,
+        "completedAt": "2026-11-14T20:30:00Z",
+        "notes": "Completed AppointmentCompletionLockService, OfflineEncryptedPhotoQueue, LiveCaptureSource camera-only guard, and TechCompleteAppointmentScreen."
       }
     },
     {
@@ -375,9 +375,9 @@ const FALLBACK_ROADMAP = {
         "title": "Build Idempotent Wallet, 75/25 Split & Coupon/Voucher Engine",
         "description": "Implement the Closed-Loop Wallet, Tech Earnings Ledger (15% fee, weekly payouts, Instant Cash-Out, Store Credit allowance), 75/25 Cancellation Split, and the Promo/Voucher Engine.",
         "deliverable": "Closed-loop wallet, cancellation splits & voucher engine",
-        "completed": false,
-        "completedAt": null,
-        "notes": ""
+        "completed": true,
+        "completedAt": "2026-11-14T20:30:00Z",
+        "notes": "Completed WalletAndLedgerService (15% fee, closed-loop wallet, 75/25 & 100% splits), CouponVoucherService (rate-limited), ClientWalletScreen, TechEarningsScreen, and hardened Firestore Rules."
       }
     },
     {
@@ -399,9 +399,9 @@ const FALLBACK_ROADMAP = {
         "title": "Build Admin Command Centre, UAC Editor, Dispute Queue, Salon & Store Dashboards",
         "description": "Build the Master Admin Dashboard (Analytics, Dynamic UAC Group Editor & Access Revocation, Voucher Manager), Built-in 3-Photo Dispute Support Queue, Salon Partner Portal, and Stock-Up Store + Warehouse Supplier CSV/API Dashboard.",
         "deliverable": "All 4 Dashboards, UAC Editor, Dispute Queue & Store Adapter",
-        "completed": false,
-        "completedAt": null,
-        "notes": ""
+        "completed": true,
+        "completedAt": "2026-11-14T20:30:00Z",
+        "notes": "Completed MasterAdminCommandCentreScreen, Dynamic UAC & StaffAuditLog, SARS CSV export, DisputeSupportQueueScreen, StockUpStoreAndWarehouseScreen (Pargo 4h + CSV/API sync), SalonPartnerPortalScreen, and Stage 4 offload tests."
       }
     },
     {
