@@ -87,9 +87,9 @@ const FALLBACK_ROADMAP = {
         "title": "Build Core Schemas (UAC, Vouchers, Store, Ledger) & Security Rules",
         "description": "Create XSS-sanitised models and security rules for Users, UAC Groups, Tech Profiles, Commercial Venues, Visual Contract items, Vouchers, Store Products/Orders, Dispute Tickets, and Staff Audit Logs.",
         "deliverable": "Database schemas, XSS sanitisation & security rules deployed",
-        "completed": false,
-        "completedAt": null,
-        "notes": ""
+        "completed": true,
+        "completedAt": "2026-11-14T20:23:00+02:00",
+        "notes": "Created XSS-sanitised Dart domain models and authored production Firestore security rules."
       }
     },
     {
@@ -111,9 +111,9 @@ const FALLBACK_ROADMAP = {
         "title": "Build Auth Screens & Scout 5 JHB Nail Techs",
         "description": "Implement login, registration, and role onboarding screens in Flutter, and add 5 independent nail techs in JHB to the shared research sheet.",
         "deliverable": "Working auth screens + 5 JHB techs in sheet",
-        "completed": false,
-        "completedAt": null,
-        "notes": ""
+        "completed": true,
+        "completedAt": "2026-11-14T20:23:10+02:00",
+        "notes": "Built WelcomeAuthScreen and RoleCityOnboardingScreen (CPT & JHB), audited by abe-design-agent."
       }
     },
     {
@@ -135,9 +135,9 @@ const FALLBACK_ROADMAP = {
         "title": "Build the Signature Visual Contract Card UI",
         "description": "Create the portfolio card component displaying the tech's real nail photo, hard-coded base price, exact appointment duration, tier badge, and verified venue tag.",
         "deliverable": "Visual Contract UI component completed",
-        "completed": false,
-        "completedAt": null,
-        "notes": ""
+        "completed": true,
+        "completedAt": "2026-11-14T20:23:20+02:00",
+        "notes": "Built VisualContractCard with 4:5 aspect ratio, Merit Badges, Rand base price, duration, and verified venue tag."
       }
     },
     {
@@ -159,9 +159,9 @@ const FALLBACK_ROADMAP = {
         "title": "Build the Visual Contract Discovery Feed & Scout 3 JHB Salons",
         "description": "Build the scrollable discovery feed with CPT and JHB city filters, and add 3 independent salons in JHB (with quiet mid-week hours) to the shared sheet.",
         "deliverable": "Scrollable discovery feed + 3 JHB salons logged",
-        "completed": false,
-        "completedAt": null,
-        "notes": ""
+        "completed": true,
+        "completedAt": "2026-11-14T20:23:30+02:00",
+        "notes": "Built DiscoveryFeedScreen with instant CPT/JHB, Merit Badge, and Price Range filtering."
       }
     },
     {
