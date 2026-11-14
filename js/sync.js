@@ -207,9 +207,9 @@ const FALLBACK_ROADMAP = {
         "title": "Build the Tech Portfolio Upload Flow",
         "description": "Create the screen for nail techs to upload a nail photo, set the fixed base price and duration, and select which optional add-ons apply.",
         "deliverable": "Working portfolio upload flow for techs",
-        "completed": false,
-        "completedAt": null,
-        "notes": ""
+        "completed": true,
+        "completedAt": "2026-11-14T21:21:00+02:00",
+        "notes": "Built TechPortfolioUploadScreen and VisualContractRepository enforcing R150-R5000 price bounds, 30-300 min duration bounds, XSS sanitisation, and verified commercial venue links."
       }
     },
     {
