@@ -183,9 +183,9 @@ const FALLBACK_ROADMAP = {
         "title": "Build the Booking Screen & Dynamic Modifier Calculator",
         "description": "Build the Visual Contract booking detail screen with live toggle switches that automatically recalculate the total price and appointment duration.",
         "deliverable": "Dynamic price and duration booking screen",
-        "completed": false,
-        "completedAt": null,
-        "notes": ""
+        "completed": true,
+        "completedAt": "2026-11-14T21:12:00+02:00",
+        "notes": "Built BookingModifier, BookingCalculatorService, and VisualContractDetailScreen with tactile toggles, per-nail stepper, voucher validation, and animated sticky total bar."
       }
     },
     {
