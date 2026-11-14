@@ -279,8 +279,8 @@ const FALLBACK_ROADMAP = {
         "title": "Enforce Strict Venue-Only Bookings & Message 5 JHB Techs",
         "description": "Enforce the safety rule in code: every booking must link either to a Tech's Verified Commercial Studio or a Partner Salon Empty Chair (blocking house calls). Send the warm research DM to 5 JHB techs.",
         "deliverable": "Venue-only safety lock + 5 JHB DMs sent",
-        "completed": false,
-        "completedAt": null,
+        "completed": true,
+        "completedAt": "2026-11-14T21:52:00+02:00",
         "notes": ""
       }
     },
@@ -303,8 +303,8 @@ const FALLBACK_ROADMAP = {
         "title": "Build Tier Badge Engine & Nail Tech In-App Dashboard",
         "description": "Implement the logic and UI badges for Rising Tech, Verified Tech, and Certified Pro, plus the Nail Tech In-App Dashboard (Today's Bookings, Chair Turnover, Pending Earnings & Store Credit Allowance).",
         "deliverable": "Tier badge engine & Nail Tech dashboard",
-        "completed": false,
-        "completedAt": null,
+        "completed": true,
+        "completedAt": "2026-11-14T21:52:00+02:00",
         "notes": ""
       }
     },
