@@ -51,9 +51,9 @@
         "notes": ""
       },
       "tech": {
-        "title": "Initialise Flutter Multi-Platform Project & Backend",
-        "description": "Set up the Flutter workspace (iOS, Android, and Web Admin) and configure Firebase/Supabase authentication, database environments, and user role guards (client, tech, salon_partner, admin).",
-        "deliverable": "Base repository & auth role routing initialised",
+        "title": "Initialise Flutter Project, Dynamic UAC Matrix & Feature Flags",
+        "description": "Set up the Flutter workspace (iOS, Android, and Web) with a central BrandConfig, Feature Flags, and a Dynamic UAC Permission Matrix (supporting Super Admin, Ops Admin, Dispute Support Staff, Warehouse Supplier, Salon Partner, Tech, and Client groups).",
+        "deliverable": "Base repository, BrandConfig & Dynamic UAC engine initialised",
         "completed": false,
         "completedAt": null,
         "notes": ""
@@ -75,9 +75,9 @@
         "notes": ""
       },
       "tech": {
-        "title": "Build Core Database Schemas & Security Rules",
-        "description": "Create database models for Users, Tech Profiles, Verified Commercial Venues, and Visual Contract Portfolio items (image URL, fixed base price, duration in minutes, allowed modifiers).",
-        "deliverable": "Database schemas & security rules deployed",
+        "title": "Build Core Schemas (UAC, Vouchers, Store, Ledger) & Security Rules",
+        "description": "Create XSS-sanitised models and security rules for Users, UAC Groups, Tech Profiles, Commercial Venues, Visual Contract items, Vouchers, Store Products/Orders, Dispute Tickets, and Staff Audit Logs.",
+        "deliverable": "Database schemas, XSS sanitisation & security rules deployed",
         "completed": false,
         "completedAt": null,
         "notes": ""
@@ -291,9 +291,9 @@
         "notes": ""
       },
       "tech": {
-        "title": "Build the Grading & Badge Engine UI",
-        "description": "Implement the logic and UI badges for Rising Tech, Verified Tech (auto-unlocked via bookings, rating threshold, and completion photos), and Certified Pro (unlocked via Aqeelah's audition approval).",
-        "deliverable": "Tier badge engine & profile badges",
+        "title": "Build Tier Badge Engine & Nail Tech In-App Dashboard",
+        "description": "Implement the logic and UI badges for Rising Tech, Verified Tech, and Certified Pro, plus the Nail Tech In-App Dashboard (Today's Bookings, Chair Turnover, Pending Earnings & Store Credit Allowance).",
+        "deliverable": "Tier badge engine & Nail Tech dashboard",
         "completed": false,
         "completedAt": null,
         "notes": ""
@@ -363,9 +363,9 @@
         "notes": ""
       },
       "tech": {
-        "title": "Build the Closed-Loop Wallet & 75/25 Cancellation Split",
-        "description": "Implement the Client Closed-Loop Wallet (non-withdrawable credits), Tech Earnings Ledger (15% platform fee, weekly payouts, Instant Cash-Out), and Automated Cancellation Logic (75% client wallet / 25% tech on late client cancel).",
-        "deliverable": "Closed-loop wallet & automated cancellation splits",
+        "title": "Build Idempotent Wallet, 75/25 Split & Coupon/Voucher Engine",
+        "description": "Implement the Closed-Loop Wallet, Tech Earnings Ledger (15% fee, weekly payouts, Instant Cash-Out, Store Credit allowance), 75/25 Cancellation Split, and the Promo/Voucher Engine.",
+        "deliverable": "Closed-loop wallet, cancellation splits & voucher engine",
         "completed": false,
         "completedAt": null,
         "notes": ""
@@ -387,9 +387,9 @@
         "notes": ""
       },
       "tech": {
-        "title": "Build 3-Photo Dispute View, Empty Chair Portal & JHB Salons",
-        "description": "Create the side-by-side Admin Dispute tool (Portfolio Photo vs. Tech Camera Photo vs. Client Complaint Photo) and the Salon Partner station listing view. Contact 2 independent salons in JHB.",
-        "deliverable": "Dispute tool + Salon portal + 2 JHB salons contacted",
+        "title": "Build Admin Command Centre, UAC Editor, Dispute Queue, Salon & Store Dashboards",
+        "description": "Build the Master Admin Dashboard (Analytics, Dynamic UAC Group Editor & Access Revocation, Voucher Manager), Built-in 3-Photo Dispute Support Queue, Salon Partner Portal, and Stock-Up Store + Warehouse Supplier CSV/API Dashboard.",
+        "deliverable": "All 4 Dashboards, UAC Editor, Dispute Queue & Store Adapter",
         "completed": false,
         "completedAt": null,
         "notes": ""
@@ -411,9 +411,9 @@
         "notes": ""
       },
       "tech": {
-        "title": "Integrate SA Payment Gateways & Load JHB Profiles",
-        "description": "Connect Paystack or Peach Payments (Card tokenisation + Instant EFT) and PayJustNow (BNPL webhook) so full upfront funds land in our float account. Load JHB Founding Tech profiles.",
-        "deliverable": "Payment gateway sandbox & JHB profiles loaded",
+        "title": "Integrate SA Payment Gateways & Build Public Marketing/Onboarding Website",
+        "description": "Connect Paystack/Peach Payments and PayJustNow BNPL with idempotent webhooks, and build the fast, CSP/XSS-hardened Public Website (Live Nail Showcase, Tech & Salon Onboarding Forms, Client Waitlist).",
+        "deliverable": "Payment gateways, Public Website & JHB profiles loaded",
         "completed": false,
         "completedAt": null,
         "notes": ""

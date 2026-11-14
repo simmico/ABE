@@ -60,9 +60,9 @@ const FALLBACK_ROADMAP = {
         "notes": ""
       },
       "tech": {
-        "title": "Initialise Flutter Multi-Platform Project & Backend",
-        "description": "Set up the Flutter workspace (iOS, Android, and Web Admin) and configure Firebase/Supabase authentication, database environments, and user role guards (client, tech, salon_partner, admin).",
-        "deliverable": "Base repository & auth role routing initialised",
+        "title": "Initialise Flutter Project, Dynamic UAC Matrix & Feature Flags",
+        "description": "Set up the Flutter workspace (iOS, Android, and Web) with a central BrandConfig, Feature Flags, and a Dynamic UAC Permission Matrix (supporting Super Admin, Ops Admin, Dispute Support Staff, Warehouse Supplier, Salon Partner, Tech, and Client groups).",
+        "deliverable": "Base repository, BrandConfig & Dynamic UAC engine initialised",
         "completed": false,
         "completedAt": null,
         "notes": ""
@@ -84,9 +84,9 @@ const FALLBACK_ROADMAP = {
         "notes": ""
       },
       "tech": {
-        "title": "Build Core Database Schemas & Security Rules",
-        "description": "Create database models for Users, Tech Profiles, Verified Commercial Venues, and Visual Contract Portfolio items (image URL, fixed base price, duration in minutes, allowed modifiers).",
-        "deliverable": "Database schemas & security rules deployed",
+        "title": "Build Core Schemas (UAC, Vouchers, Store, Ledger) & Security Rules",
+        "description": "Create XSS-sanitised models and security rules for Users, UAC Groups, Tech Profiles, Commercial Venues, Visual Contract items, Vouchers, Store Products/Orders, Dispute Tickets, and Staff Audit Logs.",
+        "deliverable": "Database schemas, XSS sanitisation & security rules deployed",
         "completed": false,
         "completedAt": null,
         "notes": ""
@@ -300,9 +300,9 @@ const FALLBACK_ROADMAP = {
         "notes": ""
       },
       "tech": {
-        "title": "Build the Grading & Badge Engine UI",
-        "description": "Implement the logic and UI badges for Rising Tech, Verified Tech (auto-unlocked via bookings, rating threshold, and completion photos), and Certified Pro (unlocked via Aqeelah's audition approval).",
-        "deliverable": "Tier badge engine & profile badges",
+        "title": "Build Tier Badge Engine & Nail Tech In-App Dashboard",
+        "description": "Implement the logic and UI badges for Rising Tech, Verified Tech, and Certified Pro, plus the Nail Tech In-App Dashboard (Today's Bookings, Chair Turnover, Pending Earnings & Store Credit Allowance).",
+        "deliverable": "Tier badge engine & Nail Tech dashboard",
         "completed": false,
         "completedAt": null,
         "notes": ""
@@ -372,9 +372,9 @@ const FALLBACK_ROADMAP = {
         "notes": ""
       },
       "tech": {
-        "title": "Build the Closed-Loop Wallet & 75/25 Cancellation Split",
-        "description": "Implement the Client Closed-Loop Wallet (non-withdrawable credits), Tech Earnings Ledger (15% platform fee, weekly payouts, Instant Cash-Out), and Automated Cancellation Logic (75% client wallet / 25% tech on late client cancel).",
-        "deliverable": "Closed-loop wallet & automated cancellation splits",
+        "title": "Build Idempotent Wallet, 75/25 Split & Coupon/Voucher Engine",
+        "description": "Implement the Closed-Loop Wallet, Tech Earnings Ledger (15% fee, weekly payouts, Instant Cash-Out, Store Credit allowance), 75/25 Cancellation Split, and the Promo/Voucher Engine.",
+        "deliverable": "Closed-loop wallet, cancellation splits & voucher engine",
         "completed": false,
         "completedAt": null,
         "notes": ""
@@ -396,9 +396,9 @@ const FALLBACK_ROADMAP = {
         "notes": ""
       },
       "tech": {
-        "title": "Build 3-Photo Dispute View, Empty Chair Portal & JHB Salons",
-        "description": "Create the side-by-side Admin Dispute tool (Portfolio Photo vs. Tech Camera Photo vs. Client Complaint Photo) and the Salon Partner station listing view. Contact 2 independent salons in JHB.",
-        "deliverable": "Dispute tool + Salon portal + 2 JHB salons contacted",
+        "title": "Build Admin Command Centre, UAC Editor, Dispute Queue, Salon & Store Dashboards",
+        "description": "Build the Master Admin Dashboard (Analytics, Dynamic UAC Group Editor & Access Revocation, Voucher Manager), Built-in 3-Photo Dispute Support Queue, Salon Partner Portal, and Stock-Up Store + Warehouse Supplier CSV/API Dashboard.",
+        "deliverable": "All 4 Dashboards, UAC Editor, Dispute Queue & Store Adapter",
         "completed": false,
         "completedAt": null,
         "notes": ""
@@ -420,9 +420,9 @@ const FALLBACK_ROADMAP = {
         "notes": ""
       },
       "tech": {
-        "title": "Integrate SA Payment Gateways & Load JHB Profiles",
-        "description": "Connect Paystack or Peach Payments (Card tokenisation + Instant EFT) and PayJustNow (BNPL webhook) so full upfront funds land in our float account. Load JHB Founding Tech profiles.",
-        "deliverable": "Payment gateway sandbox & JHB profiles loaded",
+        "title": "Integrate SA Payment Gateways & Build Public Marketing/Onboarding Website",
+        "description": "Connect Paystack/Peach Payments and PayJustNow BNPL with idempotent webhooks, and build the fast, CSP/XSS-hardened Public Website (Live Nail Showcase, Tech & Salon Onboarding Forms, Client Waitlist).",
+        "deliverable": "Payment gateways, Public Website & JHB profiles loaded",
         "completed": false,
         "completedAt": null,
         "notes": ""
@@ -544,8 +544,41 @@ const FALLBACK_GROWTH = {
 const FALLBACK_SCRIPTS = {
   "researchGuides": [
     {
+      "id": "guide_sheets",
+      "title": "1. How to Use Google Sheets (With 1-Click Starter Template)",
+      "subtitle": "Do not stress about setting up columns from scratch. Use the download button at the top of this section or follow these 4 simple steps.",
+      "steps": [
+        "Click the 'Download Ready-Made Research Sheet (CSV)' button above, then open Google Sheets (sheets.google.com), click File -> Import -> Upload, and pick that file. All your columns will appear automatically!",
+        "Freeze the Top Header Row: Click on Row 1, then click 'View' -> 'Freeze' -> '1 row' at the top menu. Now when you scroll down through 20 nail techs, your column titles stay locked at the top.",
+        "Use Colour Tags for Quick Scanning: Highlight any tech whose work looks amazing in soft pink, and highlight any salon with quiet Tuesday to Thursday hours in light green.",
+        "Keep It Simple: Do not overthink the notes column. Just write 1 short sentence about what annoyed you when trying to find their price or book them."
+      ]
+    },
+    {
+      "id": "guide_notebooklm",
+      "title": "2. How to Use Google NotebookLM to Organise Your Thoughts",
+      "subtitle": "When your brain feels full and you are overthinking how to write your checklist or salon summary, let Google's free NotebookLM help you sort your thoughts.",
+      "steps": [
+        "Go to notebooklm.google.com on your laptop or phone and sign in with your Google account.",
+        "Click 'New Notebook' and upload our Project Blueprint PDF, or paste your rough notes and the nail tech policies you found on Instagram.",
+        "Ask It Questions Like You Ask Rio: In the chat box at the bottom, type: 'Help me turn my rough notes into a clean 7-point Certified Pro nail quality checklist' or 'Summarise the biggest complaints nail techs have about late cancellations.'",
+        "It only uses the notes you gave it (it does not make random things up), so it helps you get your own smart ideas out of your head and onto paper in seconds."
+      ]
+    },
+    {
+      "id": "guide_canva",
+      "title": "3. How to Use Canva for Our Brand Pages & 1-Page Salon Sheet",
+      "subtitle": "How to make our Instagram highlights and 1-page Empty Chair salon handout look like a luxury beauty brand in 10 minutes.",
+      "steps": [
+        "Open canva.com (or the free Canva app) and search for 'Minimalist Beauty Price List' or 'Clean Business One Pager'.",
+        "Use Our Official Brand Colours: Click any background or button in Canva and paste these exact colour codes: Background Cream (#FAF6F5), Dusty Rose (#C87D87), Soft Blush (#F5E6E8), and Deep Espresso Text (#2B2123).",
+        "Use Clean Fonts: Pick 'Cormorant Garamond' for headings and 'Plus Jakarta Sans' (or 'Montserrat') for normal text.",
+        "Keep Space Around Text: Luxury brands never cram 500 words onto one picture. Use short bullet points and save as 'PDF Print' for salons or 'PNG' for Instagram."
+      ]
+    },
+    {
       "id": "guide_techs",
-      "title": "How to Find Independent Nail Techs (Instagram & TikTok)",
+      "title": "4. How to Find Independent Nail Techs (Instagram & TikTok)",
       "subtitle": "Takes about 15 minutes for 5 nail techs. Focus on real individuals or boutique studios, not huge corporate chains.",
       "steps": [
         "Open Instagram or TikTok and search phrases like 'Nail tech Cape Town', 'Nails CPT', 'Gel X Cape Town', or 'BIAB Cape Town'.",
@@ -557,7 +590,7 @@ const FALLBACK_SCRIPTS = {
     },
     {
       "id": "guide_salons",
-      "title": "How to Find 'Empty Chair' Salons (The Google Maps Trick)",
+      "title": "5. How to Find 'Empty Chair' Salons (The Google Maps Trick)",
       "subtitle": "How to spot independent salons that have empty nail stations sitting idle during the week.",
       "steps": [
         "Open Google Maps and search 'Nail salon' or 'Beauty salon' in Cape Town.",
@@ -565,6 +598,17 @@ const FALLBACK_SCRIPTS = {
         "Scroll down on their Google Maps listing until you see the 'Popular times' bar graph.",
         "Tap through Tuesday, Wednesday, and Thursday. Look for salons where the activity bars are very low between 10:00 and 15:00.",
         "Add those salons to your sheet! When a salon owner sees empty chairs on a Tuesday afternoon, they are still paying rent and electricity for an empty room, which is why our Empty Chair partnership makes them extra money."
+      ]
+    },
+    {
+      "id": "guide_calls",
+      "title": "6. The '3-Word Sticky Note' Trick for 5-Minute Phone Calls",
+      "subtitle": "How to do a quick warm call in Stage 4 without freezing up or feeling nervous.",
+      "steps": [
+        "Write just 3 words on a small piece of paper in front of you before you dial: (1) APPROVED, (2) 4-DIGIT PIN, (3) SALON CHAIR.",
+        "Remember Who You Are Calling: You are only calling nail techs who already replied nicely to your text and sent you their nail photos. They are already hoping you will approve them!",
+        "Start With Good News: The very first thing you say is 'Hi! I loved your nail photos and I have approved them for your Founding profile.' That immediately makes them smile and relaxes the whole call.",
+        "If You Forget What to Say Next: Just glance down at your 3 words (Approved -> 4-Digit PIN -> Salon Chair), say thank you, and wrap up in under 3 minutes."
       ]
     }
   ],

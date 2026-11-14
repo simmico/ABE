@@ -1,8 +1,41 @@
 {
   "researchGuides": [
     {
+      "id": "guide_sheets",
+      "title": "1. How to Use Google Sheets (With 1-Click Starter Template)",
+      "subtitle": "Do not stress about setting up columns from scratch. Use the download button at the top of this section or follow these 4 simple steps.",
+      "steps": [
+        "Click the 'Download Ready-Made Research Sheet (CSV)' button above, then open Google Sheets (sheets.google.com), click File -> Import -> Upload, and pick that file. All your columns will appear automatically!",
+        "Freeze the Top Header Row: Click on Row 1, then click 'View' -> 'Freeze' -> '1 row' at the top menu. Now when you scroll down through 20 nail techs, your column titles stay locked at the top.",
+        "Use Colour Tags for Quick Scanning: Highlight any tech whose work looks amazing in soft pink, and highlight any salon with quiet Tuesday to Thursday hours in light green.",
+        "Keep It Simple: Do not overthink the notes column. Just write 1 short sentence about what annoyed you when trying to find their price or book them."
+      ]
+    },
+    {
+      "id": "guide_notebooklm",
+      "title": "2. How to Use Google NotebookLM to Organise Your Thoughts",
+      "subtitle": "When your brain feels full and you are overthinking how to write your checklist or salon summary, let Google's free NotebookLM help you sort your thoughts.",
+      "steps": [
+        "Go to notebooklm.google.com on your laptop or phone and sign in with your Google account.",
+        "Click 'New Notebook' and upload our Project Blueprint PDF, or paste your rough notes and the nail tech policies you found on Instagram.",
+        "Ask It Questions Like You Ask Rio: In the chat box at the bottom, type: 'Help me turn my rough notes into a clean 7-point Certified Pro nail quality checklist' or 'Summarise the biggest complaints nail techs have about late cancellations.'",
+        "It only uses the notes you gave it (it does not make random things up), so it helps you get your own smart ideas out of your head and onto paper in seconds."
+      ]
+    },
+    {
+      "id": "guide_canva",
+      "title": "3. How to Use Canva for Our Brand Pages & 1-Page Salon Sheet",
+      "subtitle": "How to make our Instagram highlights and 1-page Empty Chair salon handout look like a luxury beauty brand in 10 minutes.",
+      "steps": [
+        "Open canva.com (or the free Canva app) and search for 'Minimalist Beauty Price List' or 'Clean Business One Pager'.",
+        "Use Our Official Brand Colours: Click any background or button in Canva and paste these exact colour codes: Background Cream (#FAF6F5), Dusty Rose (#C87D87), Soft Blush (#F5E6E8), and Deep Espresso Text (#2B2123).",
+        "Use Clean Fonts: Pick 'Cormorant Garamond' for headings and 'Plus Jakarta Sans' (or 'Montserrat') for normal text.",
+        "Keep Space Around Text: Luxury brands never cram 500 words onto one picture. Use short bullet points and save as 'PDF Print' for salons or 'PNG' for Instagram."
+      ]
+    },
+    {
       "id": "guide_techs",
-      "title": "How to Find Independent Nail Techs (Instagram & TikTok)",
+      "title": "4. How to Find Independent Nail Techs (Instagram & TikTok)",
       "subtitle": "Takes about 15 minutes for 5 nail techs. Focus on real individuals or boutique studios, not huge corporate chains.",
       "steps": [
         "Open Instagram or TikTok and search phrases like 'Nail tech Cape Town', 'Nails CPT', 'Gel X Cape Town', or 'BIAB Cape Town'.",
@@ -14,7 +47,7 @@
     },
     {
       "id": "guide_salons",
-      "title": "How to Find 'Empty Chair' Salons (The Google Maps Trick)",
+      "title": "5. How to Find 'Empty Chair' Salons (The Google Maps Trick)",
       "subtitle": "How to spot independent salons that have empty nail stations sitting idle during the week.",
       "steps": [
         "Open Google Maps and search 'Nail salon' or 'Beauty salon' in Cape Town.",
@@ -22,6 +55,17 @@
         "Scroll down on their Google Maps listing until you see the 'Popular times' bar graph.",
         "Tap through Tuesday, Wednesday, and Thursday. Look for salons where the activity bars are very low between 10:00 and 15:00.",
         "Add those salons to your sheet! When a salon owner sees empty chairs on a Tuesday afternoon, they are still paying rent and electricity for an empty room, which is why our Empty Chair partnership makes them extra money."
+      ]
+    },
+    {
+      "id": "guide_calls",
+      "title": "6. The '3-Word Sticky Note' Trick for 5-Minute Phone Calls",
+      "subtitle": "How to do a quick warm call in Stage 4 without freezing up or feeling nervous.",
+      "steps": [
+        "Write just 3 words on a small piece of paper in front of you before you dial: (1) APPROVED, (2) 4-DIGIT PIN, (3) SALON CHAIR.",
+        "Remember Who You Are Calling: You are only calling nail techs who already replied nicely to your text and sent you their nail photos. They are already hoping you will approve them!",
+        "Start With Good News: The very first thing you say is 'Hi! I loved your nail photos and I have approved them for your Founding profile.' That immediately makes them smile and relaxes the whole call.",
+        "If You Forget What to Say Next: Just glance down at your 3 words (Approved -> 4-Digit PIN -> Salon Chair), say thank you, and wrap up in under 3 minutes."
       ]
     }
   ],
