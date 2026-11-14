@@ -63,9 +63,9 @@ const FALLBACK_ROADMAP = {
         "title": "Initialise Flutter Project, Dynamic UAC Matrix & Feature Flags",
         "description": "Set up the Flutter workspace (iOS, Android, and Web) with a central BrandConfig, Feature Flags, and a Dynamic UAC Permission Matrix (supporting Super Admin, Ops Admin, Dispute Support Staff, Warehouse Supplier, Salon Partner, Tech, and Client groups).",
         "deliverable": "Base repository, BrandConfig & Dynamic UAC engine initialised",
-        "completed": false,
-        "completedAt": null,
-        "notes": ""
+        "completed": true,
+        "completedAt": "2026-11-14T20:11:00+02:00",
+        "notes": "Initialised abe_app/ with BrandConfig, AbeTheme, UacPermissionMatrix, and FeatureFlagsService."
       }
     },
     {
