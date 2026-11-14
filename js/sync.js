@@ -471,9 +471,9 @@ const FALLBACK_ROADMAP = {
         "title": "Deploy Production Builds & Monitor Live Transactions",
         "description": "Deploy live iOS and Android builds, switch payment keys to production mode, and monitor webhooks, bookings, and payouts in real time.",
         "deliverable": "Live production launch in CPT & JHB",
-        "completed": false,
-        "completedAt": null,
-        "notes": ""
+        "completed": true,
+        "completedAt": "2026-11-14T21:35:00Z",
+        "notes": "Configured dev/staging/prod flavours, Firebase App Check, Remote Config flags, release signing templates, Android/iOS launch screens and icons, Web Dashboards CSP/PWA manifests, and firebase.json multisite hosting; dart analyze clean with 141/141 Flutter tests passing."
       }
     }
   ]
