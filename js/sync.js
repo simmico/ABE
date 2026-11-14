@@ -423,9 +423,9 @@ const FALLBACK_ROADMAP = {
         "title": "Integrate SA Payment Gateways & Build Public Marketing/Onboarding Website",
         "description": "Connect Paystack/Peach Payments and PayJustNow BNPL with idempotent webhooks, and build the fast, CSP/XSS-hardened Public Website (Live Nail Showcase, Tech & Salon Onboarding Forms, Client Waitlist).",
         "deliverable": "Payment gateways, Public Website & JHB profiles loaded",
-        "completed": false,
-        "completedAt": null,
-        "notes": ""
+        "completed": true,
+        "completedAt": "2026-11-14T22:55:00+02:00",
+        "notes": "Completed CheckoutPaymentService & CheckoutPaymentScreen (Paystack, Peach Payments, PayJustNow BNPL, voucher & closed-loop wallet auto-apply), Cloud Functions webhook & reminder handlers (functions/), and CSP/XSS-hardened Public Website + Admin Quick Profile Seeder (public-site/)."
       }
     },
     {
